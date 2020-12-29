@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+body {
+	background-color: rgba(26,26,26,1.00);
+	z-index: 1;
+	margin: 0px;
+	padding: 0px
+}
+
+#header { 
+	position: fixed;
+	background-color: #1A1A1A;
+	background:linear-gradient(rgba(26,26,26,1),rgba(26,26,26,0.97),rgba(26,26,26,0.75),rgba(0,0,0,0.1));
+	width: 100%;
+	left:0;
+	right: 0;
+	top: 0;
+	min-height: 100px;	
+	z-index: 10
+}
+
+#logogif {
+	padding-top: 10px;
+	padding-left: 8px;
+	padding-bottom: 10px;
+	padding-right: 8px
+}
+
+#logocontainer{
+	float: left;
+	display: flex;
+}
+
+#name {
+	display:inline-flex;
+	font-family: 'comfortaa';
+	color: #FFFFFF;
+	font-size: 280%;
+	letter-spacing: 2px;
+	
+}
+
+.menubookmark {
+	font-family: Comfortaa;
+	font-weight: 500;
+	display: inline-flex;
+	padding-top: 50px;
+	padding-right: 20px;
+	
+	
+}
+
+.menubookmark a{
+	color: white;
+	text-decoration:none;
+	font-size: 110%;
+	transition: 1s;	
+		
+}
+
+.menubookmark a:hover {
+	background-olor: rgba(255,255,255,0.03);
+	padding: 10px;
+	border-radius: 25px;
+	border:medium rgba(255,255,255,1.00);
+	border-style:solid;
+	margin-top: -20px
+
+}
+
+#link1 {
+	padding-left: 70px;
+}
+
+#link1 a:hover {
+	color: rgba(46,216,246,1.00);
+	
+}
+#link2 a:hover {
+	color: rgba(43,152,212,1.00)
+}
+#link3 a:hover {
+	color: rgba(65,122,208,1.00);
+	
+}
+#link4 a:hover {
+	color: rgba(89,88,204,1.00)
+}
+#link5 a:hover {
+	color: rgba(112,55,200,1.00)
+}
+#link6 a:hover {
+	color: rgba(136,22,196,1.00)
+}
+
+#topvideo {
+	margin-top:100px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+	
+	
+}
+#vidcontainer {
+	display: flex;
+	justify-content: center;
+	background-image: url("Media/webback1.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: left;
+	left:0;
+	right:0;
+	top:0;
+	
+}
+
+#info1{
+	height: 500px;
+	background-color:#1A1A1A;
+
+}
+
+#IF1G1 {
+	margin-left: 90px;
+	width: 440px;
+	
+}
+
+#IF1H1 h1{
+	color: #04BAC7;
+	font-family: 'Comfortaa';
+	font-weight: 400;
+	font-size: 280%;
+	
+}
+
+#IF1P1 p {
+	color:#000000;
+	background-color:#FFFFFF;
+	width: 400px;
+	padding: 15px;
+	padding-left: 25px;
+	border-radius: 30px;
+	
+}
+
+/*<h1 style="font-family:'Comfortaa'; font-weight:300;font-style: italic">PerPetrol</h1>
+	<h2 style="font-family:'Roboto',sans-serif; font-weight:400;letter-spacing: 0px">Out of Reach</h2> */
