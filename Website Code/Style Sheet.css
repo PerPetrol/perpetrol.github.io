@@ -1,0 +1,918 @@
+@charset "utf-8";
+
+
+
+::-webkit-scrollbar{
+   height:  1vw;
+   width:  1vw;
+}
+
+
+::-webkit-scrollbar-track{
+  background:rgba(41,41,41,1.00)
+  
+  
+}
+ 
+
+::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,1.00); 
+  border: solid 0.25vw rgba(41,41,41,1.00);
+  border-radius: 1.2vw;
+  
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgba(192,192,192,1.00); 
+}
+ 
+
+html{
+	scroll-behavior: smooth
+}
+
+body {
+	
+	z-index: 1;
+	margin: 0px;
+	padding: 0px;
+	
+	
+}
+		
+
+#header { 
+	position: fixed;
+	background-color: #1A1A1A;
+	background:linear-gradient(rgba(26,26,26,1),rgba(26,26,26,0.97),rgba(26,26,26,0.75),rgba(0,0,0,0.1));
+	width: 100%;
+	left:0;
+	right: 0;
+	top: 0;
+	min-height: 11vw;	
+	z-index: 10;
+	transition: 1.5s;
+}
+
+#logogif {
+	box-sizing: content-box;
+	padding-top: 0.95vw;
+	padding-left: 0.55vw;
+	padding-bottom: 1.1vw;
+	padding-right: 0.55vw;
+	width: 9.1vw;
+	height: 9.1vw;
+	transition: 1.5s;
+}
+
+#logocontainer{
+	float: left;
+	display: flex;
+	
+}
+
+#name {
+	display:inline-flex;
+	font-family: 'comfortaa';
+	color: #FFFFFF;
+	font-size: 3.8vw;
+	letter-spacing: 0.15vw;
+	padding-top: 1.1vw;
+	transition: 1.5s	
+}
+
+#menucontainer {
+	float: right;
+	padding-top: 5.5vw;
+	transition: 1.5s;
+	
+}
+
+.menubookmark {
+	font-family: 'Comfortaa';
+	font-weight: 500;
+	display: inline-flex;
+	
+	padding-right: 1.6vw;
+	
+	
+}
+
+.menubookmark a{
+	color: white;
+	text-decoration:none;
+	font-size: 1.45vw;
+	
+	transition: 1s;	
+		
+}
+
+.menubookmark a:hover {
+	padding: 1vw;
+	border-radius: 3vw;
+	border:solid 0.2vw rgba(255,255,255,1.00);
+	border-style:solid;
+	margin-top: -1.2vw
+
+}
+
+#link1 a:hover {
+	color: rgba(46,216,246,1.00);
+	
+}
+#link2 a:hover {
+	color: rgba(43,152,212,1.00)
+}
+#link3 a:hover {
+	color: rgba(65,122,208,1.00);
+	
+}
+#link4 a:hover {
+	color: rgba(89,88,204,1.00)
+}
+#link5 a:hover {
+	color: rgba(112,55,200,1.00)
+}
+#link6 a:hover {
+	color: rgba(136,22,196,1.00)
+}
+
+
+/* ------------------------------------------ Body Section --------------------- */
+#vidcontainer {
+	display: flex;
+	flex-direction: column;
+	background-image: url("Media/Artboard 1.png");
+	background-attachment:fixed;
+	background-size: 100%;
+	
+	left:0;
+	right:0;
+	top:0;
+	
+}
+
+#topvideo {
+	margin-top:12vw;
+	margin-bottom:5vw;
+	width: 30vw;
+	height: 30vw;
+	padding: 2vw;
+	background-color:rgba(26,26,26,0.75);
+	border-radius: 2vw;
+	align-self:center
+	
+	
+
+}
+
+#divider1 {
+	
+}
+
+/*------------------------Who are We Table----------------------- */
+
+#info1{
+	min-height: 60vw;
+	background:#FFFFF;
+	background-size: cover;
+}
+
+#infotable{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 4vw
+}
+
+#info1row1{
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+#IF1R1g1{
+	width: 39vw;
+	align-self: flex-start;
+	padding: 0px;
+	margin-right: 2.2vw
+	
+}
+
+#G1h{
+	margin: auto;
+	text-align:end;
+	font-family: 'Roboto';
+	padding-right: 0.8vw;
+	padding-bottom: 1.3vw;
+	font-size: 4vw
+	
+	
+}
+
+#G1p{
+	margin: auto;
+	font-family: 'roboto';
+	text-align: justify;
+	font-size: 1.5vw;
+	line-height: 2vw
+	
+}
+
+#IF1R1img{
+	width: 40vw;
+	
+}
+
+#IF1R1img img{
+	width: 40vw;
+	border-radius: 4vw 4vw 4vw 0.6vw
+}
+
+#InfoRow2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.5vw;
+	margin-bottom: 2.5vw
+}
+
+#IF1R2img {
+	width: 39vw
+}
+
+#IF1R2img img{
+	width: 38.8vw;
+	border-radius: 4vw 0.6vw 4vw 4vw;
+	
+}
+
+#IF1R2g2 {
+	width: 40vw;
+	align-self: flex-start;
+	padding: 0px;
+	margin-left: 2.2vw
+}
+
+#G2h {
+	margin: auto;
+	text-align:start;
+	font-family: 'Roboto';
+	padding-left: 0.8vw;
+	padding-bottom: 1.3vw;
+	font-size: 4vw
+}
+
+#G2p {
+	margin: auto;
+	font-family: 'roboto';
+	text-align: justify;
+	font-size: 1.5vw;
+	line-height: 2vw
+}
+
+
+/*---------------------------------------------- SEC  2  -------------------------------------------*/
+
+#divider2{
+	
+}
+
+#sec2container {
+	background: url("Media/background2 website-02.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat:repeat-y ;
+	width: 100%;
+	height: 84.8vw;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#underline{
+	margin-top: 3vw;
+	border-top: solid 0.5vw rgba(255,255,255,1.00);
+	width: 62vw;
+	align-self: center
+}
+
+#logoname{
+	
+	align-self: center;
+	
+	margin-left: auto;
+	margin-right: auto
+}
+
+#logonameimg{
+	width: 55vw;
+	padding-top: 3.5vw;
+	
+	
+
+}
+
+#S2table{
+	
+	text-align: center;
+	width: 70vw;
+	align-self: center;
+	margin-top: 1vw;
+		 
+}
+
+#S2tableH{
+	font-family:'Comfortaa';
+	font-size: 5.5vw;
+	justify-content: center;
+	color: rgba(255,255,255,1.00);
+	margin-bottom: 3.5vw;
+	padding-bottom:0vw ;
+	font-weight: 400;
+	display: flex;
+	letter-spacing: 0.1vw
+}
+
+#S2tableH td{
+	border-bottom: 0.5vw rgba(255,255,255,0.90);
+	border-bottom-style: solid;
+	width: 62vw;
+	padding-bottom: 1.8vw
+}
+
+#S2tableNSWrow{	
+	margin-bottom: 1.8vw;
+	font-family: 'Comfortaa';
+	display: flex;
+	justify-content: center;
+	
+	
+
+}
+
+#S2NSWt{
+	margin-left: 2vw;
+	background: linear-gradient(-34deg,rgba(136,22,196,1),rgba(58,130,209,1)80%);
+	font-size: 1.6vw;
+	line-height: 2.4vw;
+	padding-bottom: 2.2vw;
+	padding-top: 2.2vw;
+	font-weight: 400
+	
+}
+
+#S2NSW{
+	background: linear-gradient(-34deg,rgba(68,117,208,1)10%,rgba(19,185,216,1)65%);
+	font-size: 2.4vw;
+	font-weight: 700;
+	line-height: 3vw;
+	padding-bottom: 2vw;
+	padding-top: 2vw;
+}
+
+#S2tableRegionrow{
+	
+	
+	font-family: 'Comfortaa';
+	display: flex;
+	justify-content: center
+	
+}
+
+#S2Region{
+	background: linear-gradient(-34deg,rgba(81,98,205,1)20%,rgba(19,185,216,1));
+	margin-right: 2vw;
+	line-height: 3vw;
+	font-size: 2.4vw;
+	font-weight: 700;
+	padding-bottom: 1.7vw;
+	padding-top: 1.7vw;
+}
+
+#S2Regiont{
+	background: linear-gradient(-34deg,rgba(136,22,196,1)30%,rgba(72,110,207,1)90%);
+	font-size: 1.6vw;
+	line-height: 2.8vw;
+	padding-top: 2.2vw;
+	padding-bottom: 2.9vw;
+	font-weight: 400	
+}
+
+.sec2boxwidth{
+	width:30vw;
+	align-self: center;
+	border-radius: 1vw;
+	color: rgba(255,255,255,1.00)
+	
+}
+
+divider3{
+	
+}
+/*------------------Sec 3--------------------*/
+#sec3{
+	height: 60vw;
+	min-height: 78vw
+}
+
+#sec3container{
+	
+	justify-content: center;
+	display:grid;
+	grid-template-columns: auto auto;
+	grid-gap: 2vw;
+	margin-top: 4vw;
+	
+	
+	
+}
+
+.charliecon{
+	width: 35vw;
+	display: flex;
+	flex-direction: column;
+	padding:1.5vw 2.5vw;
+	
+	border-radius: 2vw;
+	color: rgba(8,75,115,1.00)
+}
+
+#charliecon{
+	background: linear-gradient(-45deg,rgba(8,75,115,0.05),rgba(8,75,115,0.0));
+}
+
+#jaydencon{
+	background: linear-gradient(-45deg,rgba(8,75,115,0.075),rgba(8,75,115,0.03));
+}
+
+#billcon{
+	background: linear-gradient(-45deg,rgba(8,75,115,0.15),rgba(8,75,115,0.05));
+}
+
+#caspercon{
+	background: linear-gradient(-45deg,rgba(8,75,115,0.075),rgba(8,75,115,0.030));
+}
+
+.charliebox{
+	width:35vw;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+
+
+.charlieinfo{
+	width: 25vw
+}
+
+.charliename{
+	font-family: 'Comfortaa';
+	font-size: 2.5vw;
+	text-align: start;
+	padding-bottom: 1vw;
+	padding-top: 1vw;
+	font-weight: 700
+}
+
+.charlieroles{
+	padding-bottom: 1vw;
+	font-family: 'Comfortaa';
+	font-size: 2.3vw;
+	text-align: start;
+	line-height: 2.6vw
+}
+
+.charlietext {
+	font-family: 'roboto';
+	margin-top: 1vw;
+	font-weight: 300;
+	font-size: 1.8vw
+	
+}
+
+#charlieimg{
+	width: 13vw
+}
+
+#charlieimg img{
+	width: 13vw;
+	height: 13vw;
+	object-fit: cover;
+	object-position: 50% 50%;
+	border-radius: 50%
+}
+
+#jaydenimg{
+	width: 13vw
+}
+
+#jaydenimg img{
+	width: 13vw;
+	height: 13vw;
+	object-fit: cover;
+	object-position: 50% 30%;
+	border-radius: 50%
+}
+
+#casperimg{
+	width: 13vw
+}
+
+#casperimg img{
+	width: 13vw;
+	height: 13vw;
+	object-fit: cover;
+	object-position: 50% 30%;
+	border-radius: 50%
+}
+
+#billimg{
+	width: 13vw
+}
+
+#billimg img{
+	width: 13vw;
+	height: 13vw;
+	object-fit: cover;
+	object-position: 50% 40%;
+	border-radius: 50%
+	
+}
+
+
+
+
+/*---------sec 4 --------*/
+
+#sec4 {
+	
+	
+	background: rgba(74,216,255,0.2);
+	
+}
+#sec4header {
+	display:grid;
+	grid-template-columns: auto auto;
+	justify-content:center;
+	padding-left: 6.3vw;
+	padding-top: 0vw;
+	padding-bottom: 2.5vw
+	
+	
+}
+#sec4ATC{
+	font-family: 'Roboto';
+	font-size: 4vw;
+	font-weight: 600;
+	align-self: center
+	
+}
+
+#sec4F1{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 3.8vw;
+	align-self: center;
+	padding-top: 0.6vw
+}
+
+#sec4info{
+	float: left;
+}
+
+#sec4text1{
+	
+	width: 48vw;
+	text-align: left;
+	font-family: 'Roboto';
+	margin-left: 6.3vw;
+	font-size: 1.7vw;	
+}
+
+#sec4subheader{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 2.1vw;
+	margin-top: 1vw;
+	margin-left: 6.3vw;
+	margin-bottom: 0.7vw;
+	
+}
+#sec4text2{
+	margin-top: 0vw;
+	margin-left: 8.3vw;
+	width:48vw;
+	font-size: 1.7vw;
+	font-family: 'Roboto';;
+	margin-bottom: 2vw
+
+}
+
+#sec4ul{
+	margin: 0vw;
+	padding: 0vw
+}
+
+#sec4img{
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+
+#sec4links{
+	display: grid;
+	grid-gap: 20vw;
+	grid-auto-flow:column;
+	text-align: center;
+	justify-content:center;
+	width: 98vw;
+	padding-top: 1.5vw;
+	padding-bottom: 2.5vw
+	
+}
+
+#sec4links a {
+	color:rgba(9,13,42,1.00);
+	font-family: 'Comfortaa';
+	text-decoration: none;
+	font-size: 2.8vw;
+	font-weight: 300;
+	background:rgba(255,255,255,1.00);
+	padding: 1.8vw;
+	border-radius: 4vw
+	
+}
+
+#sec4links a:hover{
+	font-weight: 700;
+	transition: 0.5s;
+	padding: 2vw;
+	border:solid 0.5vw rgba(44,44,44,1.00);
+	
+}
+
+#sec4linkworld a:hover{
+	background:rgba(110,185,244,.50)
+}
+
+#sec4linkaus a:hover{
+	background: rgba(188,111,239,1.00);
+}
+
+#divider5{
+	
+}
+
+/*-------------Section 5----------*/
+
+#sec5a{
+	background-image: url( "Media/mabey2.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px
+	
+	
+}
+#sec5con{
+	margin: auto;
+	background: rgba(51,130,218,0.2);
+	
+	min-height: 40vw
+	
+}
+#sec5head{
+	font-family: 'Comfortaa';
+	font-size: 4.3vw;
+	line-height: 5.6vw;
+	font-weight: 700;
+	color: rgba(255,255,255,1.00);
+	margin-top: 9vw;
+	text-align: center;
+	text-shadow: 0vw 0vw 2vw rgb(0,0,0);
+	transition: 1s;
+	
+}
+#sec5head:hover{
+	font-size: 4.7vw;
+	line-height: 6vw;
+	text-shadow: 0vw 0vw 1vw rgb(0,0,0);
+	transition: 1s
+}
+
+#divider6{
+	background: rgba(51,130,218,0.2);
+	margin-bottom: -0.5vw;
+	padding: 0px
+}
+
+/*-----------------Sec 5 b-------------*/
+#sec5bcon{
+	display:grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	grid-gap: 4vw;
+	padding-top: 4.5vw;
+	padding-bottom: 3vw
+}
+
+#sec5box1{
+	width:40vw;
+	padding: 1.5vw 1.5vw;
+	background:rgba(8,75,115,0.040);
+	border-radius: 2vw;
+	color: rgba(8,75,115,1.00)
+	
+}
+/*
+linear-gradient(-45deg,rgba(8,75,115,0.075),rgba(8,75,115,0.030));
+*/
+#s5b1h{
+	font-family: 'Roboto';
+	font-size: 3vw;
+	font-weight: 400;
+	text-align:center;
+	
+	padding: 1vw;
+	min-height: 6.9vw;
+	align-self: center;
+	padding-top: 2.2vw
+}
+#s5b1text{
+	font-family: 'Roboto';
+	font-size: 1.3vw;
+	font-weight: 300;
+	
+	text-align: justify;
+	
+}
+
+#sec5box2{
+	width:40vw;
+	padding: 1.5vw 1.5vw;
+	background:rgba(8,75,115,0.040);
+	border-radius: 2vw;
+	color: rgba(8,75,115,1.00)
+	
+}
+#s5b2h{
+	font-family: 'Roboto';
+	font-size: 3vw;
+	font-weight: 400;
+	text-align:center;
+	
+	padding: 1vw;
+	min-height: 8vw
+}
+#s5b2text{
+	font-family: 'Roboto';
+	font-size: 1.3vw;
+	font-weight: 300;
+	
+	text-align: justify;
+	
+}
+
+/*-------------Section 6---------*/
+
+#sec6 {
+  font-family: Arial;
+margin: auto;
+	box-sizing: border-box;
+	width: 55%;
+	
+}
+
+
+
+#sec6 img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.next,
+.prev{
+	cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 1.5vw;
+  margin-top: 1vw;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5vw;
+  user-select: none;
+	border-radius: 0 1vw 1vw 0vw;
+  -webkit-user-select: none;
+	transition: 1s;
+	text-shadow: 0px 0px 0.8vw rgba(0,0,0,0.87);
+	
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 1.5vw;
+  padding: 0.5vw 0vw 0vw 0.5vw ;
+  position: absolute;
+  top: 0;
+	text-shadow: 0vw 0vw 0.9vw rgba(0,0,0,0.87);
+	transition: 1s
+}
+
+.numbertext:hover{
+	transition: 1s;
+	font-size: 2.2vw;
+	cursor: pointer;
+	text-shadow: 0vw 0vw 1vw rgba(0,0,0,0.87);
+}
+/* Container for image text */
+
+
+div.sec6row {
+
+  
+ margin-top: 0.25vw;
+  
+overflow-x:scroll;
+	
+	white-space: nowrap;
+		
+	 transform: rotateX(180deg);
+}
+
+
+
+/* Six columns side by side */
+div.sec6row img {
+  display:inline-block;
+	 transform: rotateX(180deg);
+	padding-top: 0.4vw
+  
+	
+	
+
+
+}
+
+
+
+#sec6propectusheader{
+	font-family: 'Roboto';
+	font-size:3vw ;
+	font-weight: 500;
+		
+}
+
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+ 
+
+/*<h1 style="font-family:'Comfortaa'; font-weight:300;font-style: italic">PerPetrol</h1>
+	<h2 style="font-family:'Roboto',sans-serif; font-weight:400;letter-spacing: 0px">Out of Reach</h2> */
